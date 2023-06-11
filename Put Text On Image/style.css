@@ -1,0 +1,51 @@
+main{
+ height:100%;
+  width:100%;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+main img{
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: color;
+  height:100%;
+  width:100%;
+}
+main #firsth1{
+  position: absolute;
+  bottom: 750px;
+  left:200px;
+  font-family:calibric;
+  font-size:60px;
+  font-weight:bolder;
+}
+main #secondh1{
+  position:absolute;
+  bottom:700px;
+  left:200px;
+  font-family:calibric;
+  font-size:60px;
+  font-weight:bolder;  
+}
+.btn-3{
+  position:absolute;
+  bottom:600px;
+  left:400px; 
+}
+.btn-3 button{
+  margin-left:10px;
+}
+.btn-3 button{
+  font-size: 30px;
+  padding-left:10px;
+  padding-right: 10px;
+  font-weight: bolder;
+  border-radius:10px;
+  border-style:none;
+}
+.btn-3 button:hover{
+  background-color:red;
+  color:white;
+  cursor:pointer;
+}
