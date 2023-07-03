@@ -12,3 +12,7 @@ about,
                       Making z-index -1 would take it to the back relative to the other z-index
 
                      Make the z-index value as much as you want as it doesn't matter to the browser
+
+       indexatfourth.html
+                      Here I have included javascript event handler where onclick the image will come at the top
+  
