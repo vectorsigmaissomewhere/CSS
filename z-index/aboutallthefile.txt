@@ -2,3 +2,9 @@ about,
       indexatfirst.html
                         Here we have not done anything , Just think about a card games where all the cards are been placed in a single place.
                          go to indexatfirst.
+      indexatsecond.html
+                       Here we have copied the same code but have added something like given top and left properties , here too the item 
+                        comes one after the another
+                        all the z-index is 0 by default  
+      indexatthird.html
+                       Here I have set the z-index value of image three as 1 , So that the images of the z-index comes infront of all the other images.
