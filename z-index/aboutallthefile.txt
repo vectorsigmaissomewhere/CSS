@@ -8,3 +8,6 @@ about,
                         all the z-index is 0 by default  
       indexatthird.html
                        Here I have set the z-index value of image three as 1 , So that the images of the z-index comes infront of all the other images.
+      Other things like 
+                      Making z-index -1 would take it to the back relative to the other z-index
+
