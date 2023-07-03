@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+<style>
+  div,img{
+    border: 1px solid black;
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+  }
+  #item1{
+    top:50px;
+    left:50px;
+  }
+  #item2{
+    top:100px;
+    left:100px;
+  }
+  #item3{
+    top: 150px;
+    left: 150px;
+    z-index:1;
+  }
+  #item4{
+    top:200px;
+    left:200px;
+  }
+  #item5{
+    top:250px;
+    left:250px;
+  }
+</style>
+</head>
+
+<body>
+  <img id="item1" onclick="imgToTop('item1')" src="1.jpg">
+  <img id="item2" onclick="imgToTop('item1')" src="2.jpg">
+  <img id="item3" onclick="imgToTop('item1')" src="3.jpg">
+  <img id="item4" onclick="imgToTop('item1')" src="4.jpg">
+  <img id="item5" onclick="imgToTop('item1')" src="5.jpg">
+</body>
+
+</html>
