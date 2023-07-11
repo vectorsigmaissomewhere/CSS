@@ -1,0 +1,52 @@
+
+#Animation
+    animation is a way for authors to animte the values of CSS properties over time,using keyframes
+    The behavior of these keyframes animations can be controlled by specifying their duration,
+    number of repeats, and repeating behavior
+    #Animation:Keyframes
+        Required Properties
+           -> animation-duration
+           -> animation-delay
+           -> animation-iteration-count
+           -> animation-direction
+           -> animation-fill-mode
+           ->animation-play-state
+
+      #Animation:Animation Duration Property
+        Specifies the length of time one cycle of the animation will take
+      #Syntax
+        animation-duation:values;
+      #Accepted values
+        Time in seconds(s) or milliseconds(ms)
+
+     #Animations:Animation Name Property
+        Specifies the animation/s that should be applieed to the CSS element
+    #Syntax
+        animation-name:[custom-value];
+
+     #Animations:Animation Iteration Count Property
+        Specifies the number of times the animation cycle should run
+     #Syntax
+        animation-iteration-count:value;
+    #Accepted Values
+        a number
+        infinite
+        initial
+        inherit
+
+    #Animation:Syntax to Call Animation
+      .element{
+          animation-duration:value;
+          animation-name:custom-value;
+      }
+
+    #Animation:Keyframes Syntax
+     @keyframes animation-name{
+        keyframe-location{
+          css-properties;
+      }
+      keyframe-location{
+        css-properties;
+        }
+
+    
