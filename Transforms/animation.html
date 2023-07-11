@@ -1,17 +1,66 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Transform</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+      .box{
+        transition-property:color,background-color,width,height;
+        color:#000000;
+        background-color: #bced91;
+        width: 50px;
+        height: 50px;;
+      }
+    .box:hover{
+      color: #ffffff;
+      background-color:#4f94e2;
+      width:50px;
+    }
+    .box1{
+      transition-property:color,background-color,width,height,margin-left;
+       transition-duration:2s;
+       transition-timing-function: ease-in;
+       color: #000000;
+       background-color:#bced91;
+       width: 50px;
+       height: 50px;
+       margin-left:100px;
+    }
+    .box1:hover{
+      color: #FFFFFF;
+      background-color:#4f93e2;
+      width:50px;
+      height: 50px;
+    }
+    .box2{
+      transition-property:color,background-color,width,height,margin-left;
+       transition-duration:2s;
+       transition-timing-function: ease-in;
+       transition-delay:3s;
+       color: #000000;
+       background-color:#bced91;
+       width: 50px;
+       height: 50px;
+       margin-left:200px;
+    }
+    .box2:hover{
+      color: #FFFFFF;
+      background-color:#4f93e2;
+      width:50px;
+      height: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+  <div class="box1"></div>
+  <div class="box2"></div>
+</body>
 
-
-
-
-
-
-
-
-
-
-
-
-
+</html>
 #Transition Properties 
        transition-property
        transition-duration
@@ -26,3 +75,13 @@ transition-property: property;
 transition-duration: duration;
 transition-timing-function: timing-function;
 transition-delay: delay;
+
+#Transition Timimg Property
+              Specifies the pace at which the transition will run
+              transition-timing-function:value
+              Accepted Values
+                     ease               step-start
+                     linear              step-end
+                     ease-in              custom cubic Bezier curve value
+                     ease-out              custom stepping function value
+                     ease-in-out
