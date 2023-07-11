@@ -4,24 +4,40 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>Transform</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <style>
     .box{
       width:6em;
       height:6em;
       border: 5px solid #282828;
-      transform: translate(20px,30px);
+      transform: translate(300px,100px);    
+    }
+    .box1{
+      width:6em;
+      height:6em;
+      border: 5px solid #282828;
+      transform: rotate(-25deg);
+      transform-origin: 100% 0%;
+    }
+    .box3{
+      width: 6em;
+      height:6em;
+      border:5px solid #282828;
+      transform:rotate(-25deg);
+      transform-origin:right bottom;
+      transition:translate(300px,300px)
     }
   </style>
 </head>
 <body>
   <div class="box"></div>
   <div class="box1"></div>
-
+  <div class="box3"></div>
 </body>
 
 </html>
+
 
 
 <!--
@@ -29,5 +45,13 @@ Moves an element vertically or horizontally relative to its current position,
 Positive values will move the element right on the X axis and down on the Y axis
 
 By default, transform-origin is set to the center of an element(50%,50%)
-
+transform-origin:x-offset y-offset;
+x-offset: a length or percentage from the left edge of the element's box.
+y-offset: a length or percentage from the top edge of the element's box.
+Accepted Keywords 
+left (0%)
+center (50%)
+right (100%)
+top (0%)
+bottom (100%)
 -->
